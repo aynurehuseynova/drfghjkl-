@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header .myheaderdiv {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .myheaderdiv button {
+  color: white;
+}
+header .collapseDiv {
+  justify-content: flex-end;
+}
+header .collapseDiv .navli {
+  color: red;
+}
+header .collapseDiv ul li a {
+  font-weight: 700;
+  color: white;
+}
+header .collapseDiv ul li a:hover {
+  color: red;
+}
+header .collapseDiv .itemmm:hover .bar1 {
+  display: block;
+  margin-top: 14px;
+}
+header .collapseDiv .linavfirst .bloglist {
+  display: block;
+}
+header .menuItem {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  header .menuItem {
+    display: block;
+  }
+}
